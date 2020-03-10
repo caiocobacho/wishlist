@@ -41,7 +41,7 @@ Para executar os testes integrados, execute o comando: yarn test
 
 ### Reports
 
-Para verificar os reports dos testes, checar o arquivo index.html da pasta coverage, como mostra abaixo:
+Para verificar os reports dos testes, checar o arquivo index.html da pasta coverage, como demonstrado abaixo:
 
 ![image](https://user-images.githubusercontent.com/53964900/76293113-3b1fb300-628f-11ea-85ab-08ceeba70e66.png)
 
