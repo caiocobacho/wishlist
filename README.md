@@ -41,7 +41,7 @@ Para executar os testes integrados, execute o comando: yarn test
 
 ### Reports
 
-Para verificar os reports dos testes, verificar o arquivo index.html da pasta coverage, como demonstrado abaixo:
+Para verificar os reports dos testes, verificar o arquivo index.html da pasta coverage, como mostra abaixo:
 
 ![image](https://user-images.githubusercontent.com/53964900/76293113-3b1fb300-628f-11ea-85ab-08ceeba70e66.png)
 
@@ -79,8 +79,6 @@ Faça o login na rota /login e copie o token gerado, adicione o token no Header 
 
 
   Exemplo:
-
-	 Body:
     ```JSON
 	{
 		name: "Caio Cobacho",
@@ -92,9 +90,8 @@ Faça o login na rota /login e copie o token gerado, adicione o token no Header 
   - Utiliza apenas o email no corpo da request.
 
 
- Exemplo:
 
-	Body:
+  Exemplo:
     ```JSON
 	{
 		email: "caiocobacho@dev.com"
@@ -107,7 +104,6 @@ Faça o login na rota /login e copie o token gerado, adicione o token no Header 
 
 
   Exemplo:
-	 Body:
     ```JSON
 	{
 		name: "Caio Cobacho",
