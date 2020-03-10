@@ -70,6 +70,7 @@ Faça o login na rota /login e copie o token gerado, adicione o token no Header 
 
 - Cadastro:  `POST /customer`
 	- Cria um usuário.
+  
   Exemplo:
 
 	 Body:
@@ -82,6 +83,7 @@ Faça o login na rota /login e copie o token gerado, adicione o token no Header 
 - Login: `POST /login`
 	- Autentica o cliente na aplicação.
   - Utiliza apenas o email no corpo da request.
+  
  Exemplo:
 
 	Body:
@@ -94,6 +96,7 @@ Faça o login na rota /login e copie o token gerado, adicione o token no Header 
 - Atualização: `PUT /customer`
 	- Atualiza os dados do usuário no sistema.
   - Esta rota utiliza token.
+  
   Exemplo:
 	 Body:
     ```JSON
