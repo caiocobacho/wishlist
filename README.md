@@ -39,6 +39,12 @@ Execute o seguinte comando: yarn start
 
 Para executar os testes integrados, execute o comando: yarn test
 
+### Reports
+
+Para verificar os reports dos testes, verificar o arquivo index.html da pasta coverage, como mostra abaixo:
+
+![image](https://user-images.githubusercontent.com/53964900/76293113-3b1fb300-628f-11ea-85ab-08ceeba70e66.png)
+
 
 ## Rotas
 
@@ -70,7 +76,8 @@ Faça o login na rota /login e copie o token gerado, adicione o token no Header 
 
 - Cadastro:  `POST /customer`
 	- Cria um usuário.
-  
+
+
   Exemplo:
 
 	 Body:
@@ -83,7 +90,8 @@ Faça o login na rota /login e copie o token gerado, adicione o token no Header 
 - Login: `POST /login`
 	- Autentica o cliente na aplicação.
   - Utiliza apenas o email no corpo da request.
-  
+
+
  Exemplo:
 
 	Body:
@@ -96,7 +104,8 @@ Faça o login na rota /login e copie o token gerado, adicione o token no Header 
 - Atualização: `PUT /customer`
 	- Atualiza os dados do usuário no sistema.
   - Esta rota utiliza token.
-  
+
+
   Exemplo:
 	 Body:
     ```JSON
@@ -127,5 +136,10 @@ Faça o login na rota /login e copie o token gerado, adicione o token no Header 
 - Deletar tudo: `DELETE /wishlist`
     - Deleta todos os produtos da Wishlist.
     - Esta rota utiliza token.
+
+    ## Licença
+
+
+    Esse projeto está licenciado sob os termos de Licença do MIT. Veja o arquivo [LICENSE](https://github.com/caiocobacho/wishlist/blob/master/LICENSE "Arquivo LICENSE").
 
 
