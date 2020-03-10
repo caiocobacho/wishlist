@@ -52,6 +52,7 @@ Para testar as apis, utilize postman ou insomnia.
 
 Exemplo de como devem ser os corpos das requisições:
 
+
     ```JSON
 	{
 		name: "Caio Cobacho",
